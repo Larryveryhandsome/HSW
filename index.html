@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高鐵延伸宜蘭 - 影響分析與時程規劃</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-train"></i>
+                <span>高鐵延伸宜蘭</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#overview">總覽</a></li>
+                <li><a href="#timeline">時程規劃</a></li>
+                <li><a href="#impact">影響分析</a></li>
+                <li><a href="#real-estate">房市分析</a></li>
+                <li><a href="#comparison">站點比較</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要橫幅 -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>高鐵延伸宜蘭計畫</h1>
+            <p>台北至宜蘭僅需28分鐘，打造東部一日生活圈</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">2036</span>
+                    <span class="stat-label">預計通車</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">28</span>
+                    <span class="stat-label">分鐘車程</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">60.6</span>
+                    <span class="stat-label">公里路線</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 總覽區塊 -->
+    <section id="overview" class="section">
+        <div class="container">
+            <h2 class="section-title">計畫總覽</h2>
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <div class="card-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3>路線規劃</h3>
+                    <p>自南港站向東延伸，經汐止、平溪、雙溪、貢寮，避開翡翠水庫集水區，進入宜蘭頭城、礁溪，最終抵達宜蘭站。</p>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>通車時程</h3>
+                    <p>環評已通過，預計2025年底行政院核定，設計發包2年，施工11年，最快2036年通車。</p>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>總經費</h3>
+                    <p>預估總經費達3,521.8億元，包含路線建設、站場設施及維修廠等完整工程。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 時程規劃 -->
+    <section id="timeline" class="section timeline-section">
+        <div class="container">
+            <h2 class="section-title">時程規劃</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025年底</div>
+                        <h3>行政院核定</h3>
+                        <p>環評通過後取得行政院核定，正式啟動設計與發包階段</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026-2028</div>
+                        <h3>設計與發包</h3>
+                        <p>完成詳細施工圖設計、招標作業與合約簽署</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2028-2039</div>
+                        <h3>施工期</h3>
+                        <p>依照鐵道局預估11年工期推進，含路線、站場、維修廠等工程</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2036</div>
+                        <h3>預計通車</h3>
+                        <p>正式加入全台高鐵網絡，成為東部一日生活圈的重要樞紐</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 影響分析 -->
+    <section id="impact" class="section">
+        <div class="container">
+            <h2 class="section-title">影響分析</h2>
+            <div class="impact-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="transport">交通影響</button>
+                    <button class="tab-btn" data-tab="economy">經濟效益</button>
+                    <button class="tab-btn" data-tab="environment">環境考量</button>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="transport">
+                        <div class="impact-grid">
+                            <div class="impact-item">
+                                <h4><i class="fas fa-train"></i> 通勤時間大幅縮短</h4>
+                                <p>台北（南港）至宜蘭僅需28-30分鐘，相較台鐵1.5-2小時大幅提升效率</p>
+                            </div>
+                            <div class="impact-item">
+                                <h4><i class="fas fa-road"></i> 紓解國道交通</h4>
+                                <p>減輕國道五號長假交通壓力，提供穩定可靠的替代運輸選擇</p>
+                            </div>
+                            <div class="impact-item">
+                                <h4><i class="fas fa-exchange-alt"></i> 雙鐵互補</h4>
+                                <p>與台鐵形成轉乘銜接，提升東部運輸韌性與便利性</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="economy">
+                        <div class="impact-grid">
+                            <div class="impact-item">
+                                <h4><i class="fas fa-camera"></i> 觀光產業發展</h4>
+                                <p>促進外縣市旅客一日來回，帶動在地餐飲、民宿與文創產業</p>
+                            </div>
+                            <div class="impact-item">
+                                <h4><i class="fas fa-building"></i> 都市再生</h4>
+                                <p>車站特定區都市計畫啟動，吸引投資與商業開發</p>
+                            </div>
+                            <div class="impact-item">
+                                <h4><i class="fas fa-chart-line"></i> 區域均衡</h4>
+                                <p>促進東部與西部互動，平衡區域發展差距</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="environment">
+                        <div class="impact-grid">
+                            <div class="impact-item">
+                                <h4><i class="fas fa-leaf"></i> 生態保護</h4>
+                                <p>避開翡翠水庫集水區，制定林相復育計畫</p>
+                            </div>
+                            <div class="impact-item">
+                                <h4><i class="fas fa-volume-down"></i> 噪音控制</h4>
+                                <p>針對隧道施工湧水、噪音振動提出因應措施</p>
+                            </div>
+                            <div class="impact-item">
+                                <h4><i class="fas fa-recycle"></i> 廢棄物管理</h4>
+                                <p>明訂臨時棄土管理與錯流方案</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 房市分析 -->
+    <section id="real-estate" class="section real-estate-section">
+        <div class="container">
+            <h2 class="section-title">房市影響分析</h2>
+            <div class="real-estate-content">
+                <div class="price-comparison">
+                    <h3>2025年房價比較（30坪住宅，8成貸款，2.8%利率，30年期）</h3>
+                    <div class="comparison-table">
+                        <div class="table-header">
+                            <div class="header-cell">區域</div>
+                            <div class="header-cell">平均單坪(萬元)</div>
+                            <div class="header-cell">30坪總價(萬)</div>
+                            <div class="header-cell">月還款(元)</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-cell">台北市</div>
+                            <div class="table-cell">118</div>
+                            <div class="table-cell">3,540</div>
+                            <div class="table-cell">116,365</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-cell">新北市</div>
+                            <div class="table-cell">65</div>
+                            <div class="table-cell">1,950</div>
+                            <div class="table-cell">64,100</div>
+                        </div>
+                        <div class="table-row highlight">
+                            <div class="table-cell">宜蘭</div>
+                            <div class="table-cell">28.7</div>
+                            <div class="table-cell">861</div>
+                            <div class="table-cell">28,302</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cost-analysis">
+                    <h3>通勤成本分析</h3>
+                    <div class="cost-cards">
+                        <div class="cost-card">
+                            <h4>高鐵月票預估</h4>
+                            <div class="cost-amount">5,500-6,000元/月</div>
+                            <p>參考南港-桃園定期票5,585元/月</p>
+                        </div>
+                        <div class="cost-card">
+                            <h4>每月節省金額</h4>
+                            <div class="cost-amount">30,213元</div>
+                            <p>新北市vs宜蘭房貸差額扣除交通費</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 站點比較 -->
+    <section id="comparison" class="section">
+        <div class="container">
+            <h2 class="section-title">高鐵站點房價漲幅比較</h2>
+            <div class="comparison-chart">
+                <div class="chart-container">
+                    <canvas id="priceChart"></canvas>
+                </div>
+                <div class="chart-legend">
+                    <h3>各站點通車後3年房價漲幅</h3>
+                    <div class="legend-items">
+                        <div class="legend-item">
+                            <span class="legend-color" style="background-color: #4CAF50;"></span>
+                            <span>新竹站: 62.6%</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background-color: #2196F3;"></span>
+                            <span>台南站: 51.2%</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background-color: #FF9800;"></span>
+                            <span>左營站: 44.2%</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background-color: #9C27B0;"></span>
+                            <span>苗栗站: ~40%</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background-color: #F44336;"></span>
+                            <span>桃園站: 29.7%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>資料來源</h4>
+                    <p>交通部鐵道局</p>
+                    <p>實價登錄統計</p>
+                    <p>環評報告書</p>
+                </div>
+                <div class="footer-section">
+                    <h4>更新時間</h4>
+                    <p>2025年1月</p>
+                    <p>資料持續更新中</p>
+                </div>
+                <div class="footer-section">
+                    <h4>聯絡資訊</h4>
+                    <p><i class="fas fa-envelope"></i> info@hsr-yl.com</p>
+                    <p><i class="fas fa-phone"></i> (02) 2345-6789</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 高鐵延伸宜蘭資訊網. 保留所有權利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
